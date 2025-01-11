@@ -180,7 +180,7 @@ nav li a{
     opacity: 70%;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 .news{
     display: flex;
@@ -261,6 +261,24 @@ nav li a{
     margin-bottom: 35px;
     cursor: pointer;
 }
+.donate-taka-1{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    padding: 40px;
+    border: 1px solid #DBDBDB;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    gap: 24px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.donate-taka:hover{
+    background-color: #C6E4D6;
+}
+.donate-taka-1:hover{
+    background-color: #C6E4D6;
+}
 .custom-amount-input{
     width: 100%;
     margin: auto;
@@ -282,4 +300,51 @@ nav li a{
     margin: 0px auto 70px;
     padding: 0px;
     text-align: center;
+}
+.newsletter{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 60px;
+    width: 1280px;
+    padding: 80px 60px 80px 60px;
+}
+.subscribe{
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0px;
+    gap: 0px;
+    padding: 0px 100px;
+}
+
+
+.subscribe-input{
+    width: 392px;
+    padding: 18px 40px;
+    text-align: start;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+    margin-right: -5px;
+}
+.subscribe-btn{
+    width: 150px;
+    background-color: #006A50;
+    padding: 17px 34px;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
 }
