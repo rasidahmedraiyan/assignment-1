@@ -1,0 +1,92 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1380px;
+    align-items: center;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 32px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-btn{
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Fira Sans", serif;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.primary-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero-section{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto 60px;
+    width: 1280px;
+    padding: 80px 60px 80px 60px;
+}
+.hero-section-content{
+    width: 612px;
+    justify-content: center;
+}
+.hero-section-sub {
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    margin: 0px;
+}
+.hero-section-tittle{
+    font-family: "Fira Sans", serif;
+    font-size: 56px;
+    font-weight: 800;
+    margin: 20px 0px 20px 0px;
+}
+.hero-section-image, img{
+    width: 574px;
+}
