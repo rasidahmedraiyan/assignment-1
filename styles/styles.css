@@ -377,3 +377,25 @@ nav li a{
     font-size: 12px;
     font-weight: 400;
 }
+.footer{
+    width: 1280px;
+    margin: auto;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.footer-social-icon img{
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+.footer-tittle{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+hr{
+    border: 1px solid;
+    color: #DBDBDB;
+}
