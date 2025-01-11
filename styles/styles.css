@@ -92,7 +92,7 @@ nav li a{
 }
 /* Vision Section Styles */
 .vision{
-    width: 1380px;
+    width: 1360px;
     margin: auto;
 }
 .goal{
@@ -119,6 +119,7 @@ nav li a{
     margin-bottom: 0px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .goal-btn-2{
     padding: 11px 20px 11px 20px;
@@ -130,6 +131,7 @@ nav li a{
     margin-bottom: 0px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .goal-btn-3{
     padding: 11px 20px 11px 20px;
@@ -141,6 +143,7 @@ nav li a{
     margin-bottom: 0px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 .goal-container-1{
     width: 410px;
@@ -178,4 +181,59 @@ nav li a{
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 32px;
+}
+.news{
+    display: flex;
+    width: 1290px;
+    background-color: white;
+    box-shadow: #F7EBCF;
+    margin: auto;
+    padding: 40px;
+    border: 2px solid #f5f5f5;
+    border-radius: 24px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.news-img{
+    border-radius: 24px;
+    width: 480px;
+    height: 306px;
+}
+.news-container-img{
+    width: 134px;
+    height: 34px;
+}
+.news-satelite{
+    width: 744px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.news-tittle{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.news-paragrapgh{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-weight: 400;
+    line-height: 24px;
+}
+.news-btn{
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
