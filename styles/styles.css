@@ -348,3 +348,32 @@ nav li a{
     cursor: pointer;
     border-radius: 0px 10px 10px 0px;
 }
+.yunus{
+    background: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    border: 1px solid #DBDBDB;
+    border-radius: 24px;
+    display: flex;
+    gap: 24px;
+    margin: 20px auto 60px;
+    width: 1280px;
+    padding: 40px 60px 40px 60px;
+}
+.yunus-speech{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-weight: 400;
+    line-height: 24px;
+}
+.yunus-name{
+    font-family: "Fira Sans", serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.yunus-tittle{
+    font-family: "Fira Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+}
